@@ -1,0 +1,340 @@
+ body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0b0512;
+      color: #eee;
+      
+      
+
+    header {
+    background-image: url(ChatGPT\ Image\ Jun\ 6\,\ 2025\,\ 01_14_37\ PM.png);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px 60px;
+      position: relative;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(10, 0, 20, 0.75); 
+      z-index: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #d65eff;
+      text-shadow: 0 0 8px #9b00ff, 0 0 14px #ff55ff;
+    }
+
+    nav ul {
+      display: flex;
+      gap: 30px;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #e5caff;
+      font-size: 15px;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ff85ff;
+    }
+
+    .hero-content {
+      text-align: center;
+      z-index: 1;
+      position: relative;
+      margin-bottom: 60px;
+    }
+
+    .hero-content h1 {
+      font-size: 70px;
+      margin: 0;
+      color: #ffffff;
+      text-shadow: 0 0 25px #9c00ff, 0 0 50px #4c0070;
+    }
+
+    .hero-content p {
+      font-size: 18px;
+      color: #d1baff;
+      margin-top: 20px;
+    }
+
+    .cta-button {
+      margin-top: 30px;
+      background: #9f00ff;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 30px;
+      color: white;
+      font-size: 16px;
+      text-transform: uppercase;
+      box-shadow: 0 0 15px #c200ff;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background: #c800ff;
+      box-shadow: 0 0 25px #ff00ff;
+    }
+    body {
+  margin: 0;
+  background-color: #f4f4f4; /* dim white / soft gray background */
+  font-family: 'Segoe UI', sans-serif;
+  color: #000; /* main text color set to black */
+}
+
+.info-section {
+  padding: 60px 40px;
+  background-color: #f4f4f4;
+}
+
+.info-container {
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(160, 32, 240, 0.15);
+}
+
+.info-container h1 {
+  color: #a020f0;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.info-container p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #000; /* ensure paragraph text is black */
+}
+
+.info-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-container ul li {
+  margin-bottom: 20px;
+  color: #000; /* ensure list text is black */
+}
+
+.info-container ul li span {
+  color: #a020f0;
+  font-weight: bold;
+}
+
+.highlight {
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #a020f0;
+}
+.requirements-section {
+  padding: 60px 40px;
+  background-color: #f4f4f4;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.requirements-card {
+  max-width: 900px;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(160, 32, 240, 0.1);
+  color: #000;
+}
+
+.requirements-card h2 {
+  color: #a020f0;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.requirements-columns {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .requirements-columns {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.requirement-block {
+  flex: 1;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.requirement-block h3 {
+  color: #a020f0;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.requirement-block ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.requirement-block ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.pricing-section {
+  background-image: url('your-background-image.jpg'); /* Replace with your actual image path */
+  background-size: cover;
+  background-position: center;
+  padding: 80px 40px;
+  position: relative;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.pricing-overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* Dark overlay for readability */
+  padding: 60px;
+  border-radius: 12px;
+}
+
+.pricing-container {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.pricing-container h2 {
+  font-size: 36px;
+  color: #a020f0;
+  margin-bottom: 50px;
+}
+
+.price-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .price-cards {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.price-card {
+  background-color: #ffffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 30px 40px;
+  width: 280px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0 10px 25px rgba(160, 32, 240, 0.2);
+  cursor: pointer;
+}
+
+.price-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(160, 32, 240, 0.4);
+}
+
+.price-card h3 {
+  color: #a020f0;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.car-type {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.details {
+  font-size: 14px;
+  color: #333;
+}
+
+.game-footer {
+  background-color: #3c2a4d; /* Dim purple background */
+  padding: 40px 20px;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.conclusion {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.social-links {
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #a020f0;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #ccc;
+}
